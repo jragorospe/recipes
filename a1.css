@@ -1,0 +1,62 @@
+h1.Home {
+    text-align: center;
+}
+
+hr.space {
+    max-width: 500px;
+    margin: 0px;
+    padding-bottom: 40px;
+    color: transparent;
+}
+
+hr {
+    max-width: 500px;
+    margin: 0px; 
+}
+
+body {
+    background-color: lightblue;
+}
+
+a.homeLink {
+    background-color: green;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;        
+}
+
+img.HomePic {
+    width:480px;
+    height:480px;
+    display: block;
+    margin: 0 auto;
+}
+
+img.FoodPic {
+    width:360px;
+    height:360px;
+    display: block;
+    margin: 0px;
+}
+
+table {
+  border-collapse: collapse;
+  display: block;
+  margin: 0 auto;
+  width: 720px;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: white}
+tr:nth-child(odd){background-color: lightslategrey}
+
+th {
+  background-color: blue;
+  color: white;
+}
